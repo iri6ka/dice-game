@@ -4,7 +4,7 @@
   "description": "simple dice game in vanilla JS - used as intro to event handlers and DOM manipulation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,6 @@
   "homepage": "https://github.com/Andrew-CC-Martin/dice-game#readme",
   "devDependencies": {
     "jest": "^26.6.3"
-  }
+  },
+  "type": "module"
 }
